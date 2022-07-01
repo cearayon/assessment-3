@@ -127,3 +127,12 @@ p {
 	text-align: center;
 
 }
+
+.foodButtonBox{
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	align-items: center;
+	justify-content: center;
+	background-color: purple;
+}
