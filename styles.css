@@ -118,3 +118,12 @@ p {
 	text-align: justify;
 	text-justify: inter-word;
 }
+
+.randomRestaurantButton{
+	background-color: orange;
+	border: none;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+
+}

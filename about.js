@@ -17,6 +17,19 @@ function mouseOverCompliment(evt){
 
 }
 
+
+
+// function foodRec(evt){
+// 	let rec = ['Taco Chelo', 'At My Place Cafe', 'Gen', 'Tampopo Ramen', 'Sushi Vibe', 'Moira', 'Cobra Arcade Bar']
+// 	evt.preventDefault();
+
+// 	const randomRec = rec[Math.floor(Math.random()* rec.length)]
+
+// 	alert(randomRec[i])
+
+
+// }
+
 let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
@@ -24,3 +37,7 @@ form.addEventListener('submit', handleSubmit);
 let img = document.querySelector('img');
 
 img.addEventListener('mouseover', mouseOverCompliment)
+
+// let food = document.querySelector('randomRestaurantButton')
+
+// food.addEventListener('click', foodRec)
