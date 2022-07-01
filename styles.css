@@ -87,3 +87,34 @@ h4{
 	text-align: center;
 }
 
+.memebox {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	align-items: center;
+	justify-content: center;
+}
+
+#phoenixPic{
+	height:300px;
+	width:300px;
+}
+#anakinSand{
+	height:300px;
+	width:300px;
+}
+
+
+#suckyGuy{
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	align-items: center;
+	justify-content: center;
+}
+
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
